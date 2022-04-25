@@ -5,26 +5,26 @@
     <parent>
         <artifactId>nuosi-flow</artifactId>
         <groupId>io.github.reynolds2019</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>working-hours</artifactId>
 
-    <repositories>
-        <repository>
-            <id>ipu</id>
-            <name>ipu repository</name>
-            <url>http://114.215.100.48:9090/nexus/content/groups/public/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-            </snapshots>
-        </repository>
-    </repositories>
+<!--    <repositories>-->
+<!--        <repository>-->
+<!--            <id>ipu</id>-->
+<!--            <name>ipu repository</name>-->
+<!--            <url>http://114.215.100.48:9090/nexus/content/groups/public/</url>-->
+<!--            <releases>-->
+<!--                <enabled>true</enabled>-->
+<!--            </releases>-->
+<!--            <snapshots>-->
+<!--                <enabled>true</enabled>-->
+<!--                <updatePolicy>always</updatePolicy>-->
+<!--            </snapshots>-->
+<!--        </repository>-->
+<!--    </repositories>-->
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -59,7 +59,7 @@
         <dependency>
             <groupId>io.github.reynolds2019</groupId>
             <artifactId>nuosi-logicflow</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0</version>
         </dependency>
     </dependencies>
 
